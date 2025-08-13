@@ -329,8 +329,7 @@ section h2 {
 .card.client4-board {
     background: url('client4.png') center/cover no-repeat, #fdf9e8;
 }
-/* ...repeat for other card types... */
-/* Optionally, add a semi-transparent overlay for text readability */
+
 .card h3, .card p {
     background: rgba(255,255,255,0.7);
     display: inline-block;
@@ -445,7 +444,7 @@ footer p {
     text-decoration: underline;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 820px) {
     .branches, .menu-grid, .specials-grid, .contact-details {
         flex-direction: column;
